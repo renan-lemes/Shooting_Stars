@@ -1,6 +1,3 @@
-
-var clock = 0
-
 class Drop {
   constructor() {
     this.x = random(200, -200);
@@ -50,3 +47,4 @@ function draw() {
   }
 }
 
+var temporisador = setTimeout(setup, 30000)
